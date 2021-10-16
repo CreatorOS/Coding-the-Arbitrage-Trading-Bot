@@ -172,16 +172,12 @@ Next, scroll down in the “contract” tab of the etherscan page for uniswap an
 ```
 
 const signer = new ethers.Wallet( privateKey ); 
-
 const  uniswapRouter = new ethers.Contract(
-
-            ‘’,
-
-           ‘’,
-
+            ‘<uniswapAddress>’,
+           ‘<uniswapABI>’,
             signer.connect( provider )
-
         )
+
 
 ```
 
